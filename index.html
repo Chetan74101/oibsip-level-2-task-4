@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Authentication System</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="login-page">
+		<div id="login">
+			<div class="form">
+				<form class="login-form"><center>
+                    <h2>Login form</h2>
+					<input type="text" placeholder="username" id="username" />
+					<input type="password" placeholder="password" id="password" />
+					<button id="login-button">login</button></center>
+				</form>
+			</div>
+			<div class="form">
+				<form class="register-form"><center>
+                    <h2>Registration Form</h2>
+					<input type="text" placeholder="username" id="register-username" />
+					<input type="password" placeholder="password" id="register-password" />
+					<button id="register-button">register</button></center>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="secured-page" style="display:none;">
+		<h1>Welcome to the secured page!</h1>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
